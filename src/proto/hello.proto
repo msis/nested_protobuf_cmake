@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+import "child/world.proto";
+
+message Hello{
+  optional string hello = 1;
+  optional World world = 2;
+}
